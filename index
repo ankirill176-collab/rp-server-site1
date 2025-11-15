@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RP Сервер — Донат и Привилегии</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin: 0; background: linear-gradient(135deg, #2a2d3e, #1b1c27); color: #fff; }
+    header { background: rgba(0,0,0,0.4); backdrop-filter: blur(6px); padding: 25px; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.1); }
+    h1 { font-size: 32px; letter-spacing: 1px; }
+    .container { width: 90%; max-width: 1100px; margin: 30px auto; }
+    .card { background: rgba(255,255,255,0.07); padding: 25px; border-radius: 14px; margin-bottom: 25px; box-shadow: 0 6px 18px rgba(0,0,0,0.25); border: 1px solid rgba(255,255,255,0.08); }
+    h2 { margin-top: 0; font-weight: 600; }
+    .privileges { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 18px; }
+    .priv { background: rgba(0,0,0,0.25); padding: 20px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); text-align: center; transition: 0.2s; }
+    .priv:hover { transform: translateY(-4px); background: rgba(0,0,0,0.35); }
+    button { background: #ff8c37; color: white; border: none; padding: 10px 22px; border-radius: 12px; cursor: pointer; font-weight: 600; font-size: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: 0.2s; }
+    button:hover { background: #ffa75c; transform: translateY(-3px); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>RP Сервер — Донат и Привилегии</h1>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Доступные привилегии</h2>
+      <div class="privileges">
+        <div class="priv"><h3>Бизнесмен</h3><a href="https://www.donationalerts.com/r/lamaran1" target="_blank"><button>Донат</button></a></div>
+        <div class="priv"><h3>Мажор</h3><a href="https://www.donationalerts.com/r/lamaran1" target="_blank"><button>Донат</button></a></div>
+        <div class="priv"><h3>Олигарх</h3><a href="https://www.donationalerts.com/r/lamaran1" target="_blank"><button>Донат</button></a></div>
+        <div class="priv"><h3>Чиновник</h3><a href="https://www.donationalerts.com/r/lamaran1" target="_blank"><button>Донат</button></a></div>
+        <div class="priv"><h3>Депутат</h3><a href="https://www.donationalerts.com/r/lamaran1" target="_blank"><button>Донат</button></a></div>
+        <div class="priv"><h3>Мэр</h3><a href="https://www.donationalerts.com/r/lamaran1" target="_blank"><button>Донат</button></a></div>
+        <div class="priv"><h3>Губернатор</h3><a href="https://www.donationalerts.com/r/lamaran1" target="_blank"><button>Донат</button></a></div>
+        <div class="priv"><h3>Дипломат</h3><a href="https://www.donationalerts.com/r/lamaran1" target="_blank"><button>Донат</button></a></div>
+        <div class="priv"><h3>Министр</h3><a href="https://www.donationalerts.com/r/lamaran1" target="_blank"><button>Донат</button></a></div>
+        <div class="priv"><h3>Председатель федерального собрания</h3><a href="https://www.donationalerts.com/r/lamaran1" target="_blank"><button>Донат</button></a></div>
+        <div class="priv"><h3>Президент</h3><a href="https://www.donationalerts.com/r/lamaran1" target="_blank"><button>Донат</button></a></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Как работает донат?</h2>
+      <p>Нажмите на кнопку "Донат" напротив нужной привилегии, после чего вы будете перенаправлены на страницу оплаты.</p>
+      <p>После оплаты привилегия автоматически выдается на сервере.</p>
+    </div>
+  </div>
+</body>
+</html>
